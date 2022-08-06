@@ -17,7 +17,7 @@ function Toggle() {
       <div
         className="t-button"
         onClick={handleClick}
-        style={{ left: theme.state.darkMode ? 0 : 25 }}
+        style={{ left: theme.state.darkMode ? 0 : 26 }}
       ></div>
     </div>
   );

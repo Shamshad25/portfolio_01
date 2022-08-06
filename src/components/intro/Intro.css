@@ -96,6 +96,11 @@
     height: 100%;
   }
 
+  .i-title-item {
+    align-items: center;
+    justify-content: center;
+  }
+
   .i-desc {
     display: none;
   }
