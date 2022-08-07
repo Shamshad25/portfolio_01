@@ -15,7 +15,10 @@ function About() {
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">I love building things.</p>
         <p className="a-desc">
-          I enjoy designing Clean, Beautiful, Interactive, Responsive and
+          I am a B-Tech Graduate from Uttarakhand Technical University
+          (Dehradun). <br />I
+          <br />
+          enjoy designing Clean, Beautiful, Interactive, Responsive and
           User-Friendly Websites and Mobile Application developed by Modular,
           Scalable and Functional Code. Having an experience in ReactJS/ React
           Native / JavaScript / HTML / CSS and some other cool libraries and
