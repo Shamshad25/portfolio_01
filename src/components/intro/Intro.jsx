@@ -11,14 +11,15 @@ function Intro() {
           <h1 className="i-name">Shamshad Alam</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Mobile Application Developer</div>
+              <div className="i-title-item">Mobile App Developer</div>
               <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">UI/UX Designer</div>
               <div className="i-title-item">Content Creator</div>
             </div>
           </div>
           <p className="i-desc">
-            I am a passionate Front-End Web Developer and Mobile App Developer.
+            I am a passionate Front-End Web Developer and Mobile Application
+            Developer.
           </p>
         </div>
       </div>
