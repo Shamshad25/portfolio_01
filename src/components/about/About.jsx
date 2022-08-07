@@ -16,7 +16,7 @@ function About() {
         <p className="a-sub">I love building things.</p>
         <p className="a-desc">
           I am a B-Tech Graduate from Uttarakhand Technical University
-          (Dehradun). <br />I
+          (Dehradun). <br />
           <br />
           enjoy designing Clean, Beautiful, Interactive, Responsive and
           User-Friendly Websites and Mobile Application developed by Modular,
