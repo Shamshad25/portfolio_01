@@ -17,8 +17,7 @@ function About() {
         <p className="a-desc">
           I am a B-Tech Graduate from Uttarakhand Technical University
           (Dehradun). <br />
-          <br />
-          enjoy designing Clean, Beautiful, Interactive, Responsive and
+          <br />I enjoy designing Clean, Beautiful, Interactive, Responsive and
           User-Friendly Websites and Mobile Application developed by Modular,
           Scalable and Functional Code. Having an experience in ReactJS/ React
           Native / JavaScript / HTML / CSS and some other cool libraries and
