@@ -1,6 +1,12 @@
-.p {
+.section {
+  display: flex;
+  flex-direction: column;
   width: 30%;
   height: 40vh;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+.p {
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
@@ -33,9 +39,29 @@
   transform: translateY(-100%);
 }
 
+.pText {
+  color: #ea3057;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 480px) {
-  .p {
+  .section {
     width: 40%;
     height: 20vh;
+  }
+}
+@media screen and (max-width: 760px) {
+  .section {
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+  }
+  .p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }

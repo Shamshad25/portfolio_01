@@ -16,7 +16,14 @@ function ProductList() {
       <div className="pl-list">
         {products?.map((product) => {
           return (
-            <Product key={product.id} img={product.image} link={product.link} />
+            <>
+              <Product
+                key={product.id}
+                img={product.image}
+                link={product.link}
+                project={product.project}
+              />
+            </>
           );
         })}
       </div>
