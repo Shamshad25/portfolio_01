@@ -11,7 +11,7 @@ export const products = [
   {
     id: 2,
     image: project02,
-    link: "https://shamshad.netlify.app/",
+    link: "https://tourista01.netlify.app",
   },
   {
     id: 3,
