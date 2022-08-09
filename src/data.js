@@ -13,7 +13,7 @@ export const products = [
   {
     id: 2,
     image: project02,
-    link: "https://tourista01.netlify.app",
+    link: "https://github.com/Shamshad25/haha_talks",
     project: "HahaTalks",
   },
   {
