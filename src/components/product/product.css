@@ -46,22 +46,22 @@
 }
 
 @media screen and (max-width: 480px) {
-  .section {
+  .p {
     width: 40%;
     height: 20vh;
   }
 }
 @media screen and (max-width: 760px) {
   .section {
-    width: 60%;
+    width: 70%;
     height: 40vh;
     display: flex;
     align-items: center;
   }
   .p {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
+    margin: 10px 0;
   }
 }
