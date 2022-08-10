@@ -136,4 +136,8 @@ button {
   button {
     margin-top: 10px;
   }
+
+  .response {
+    margin-bottom: 10px;
+  }
 }

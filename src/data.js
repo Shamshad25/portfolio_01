@@ -13,7 +13,7 @@ export const products = [
   {
     id: 2,
     image: project02,
-    link: "https://github.com/Shamshad25/haha_talks",
+    link: "#",
     project: "HahaTalks",
   },
   {
