@@ -51,9 +51,9 @@
     height: 25vh;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .section {
-    width: 70%;
+    width: 55%;
     height: 40vh;
     display: flex;
     align-items: center;

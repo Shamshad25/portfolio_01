@@ -5,6 +5,7 @@ import Email from "../../img/mail_logo.png";
 import Addres from "../../img/map_logo.png";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
+import tick from "../../img/accept.png";
 
 function Contact() {
   const formRef = useRef();
@@ -23,7 +24,7 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("This is comment", result.text);
           setDone(true);
         },
         (error) => {
@@ -84,7 +85,12 @@ function Contact() {
               name="message"
             />
             <button>Submit</button>
-            {done && "Thankyou.."}
+            {done && (
+              <div className="response">
+                <img src={tick} alt="tick" width="30px" height="30px" />
+                <h4>Thankyou! Your response have been submitted!</h4>
+              </div>
+            )}
           </form>
         </div>
       </div>

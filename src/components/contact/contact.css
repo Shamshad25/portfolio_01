@@ -6,7 +6,7 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #59b256;
+  background-color: #5693aa;
   position: absolute;
 }
 
@@ -76,6 +76,29 @@ button {
   color: white;
   font-weight: 500;
   cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.response {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid #59b256;
+}
+
+.response h4 {
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1024px) {
+  .c {
+    height: 100%;
+  }
+  .c-bg {
+    width: 20px;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {

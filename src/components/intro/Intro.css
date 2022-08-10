@@ -83,6 +83,19 @@
   right: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .i-name {
+    font-size: 55px;
+  }
+  .i-title {
+    height: 65px;
+  }
+
+  .i-title-item {
+    font-size: 27px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .i {
     flex-direction: column;
