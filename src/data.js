@@ -3,6 +3,7 @@ import project02 from "../src/img/project02.png";
 import project03 from "../src/img/project03.png";
 import project04 from "../src/img/project04.png";
 import project05 from "../src/img/project05.png";
+import project06 from "../src/img/project06.png";
 
 export const products = [
   {
@@ -34,5 +35,11 @@ export const products = [
     image: project05,
     link: "https://shamshad.netlify.app/",
     project: "Portfolio",
+  },
+  {
+    id: 6,
+    image: project06,
+    link: "https://contact-manage01.netlify.app/",
+    project: "Contact-Manager & Covid-19-Survey",
   },
 ];
