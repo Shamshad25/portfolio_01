@@ -5,6 +5,7 @@ import project04 from "../src/img/project04.png";
 import project05 from "../src/img/project05.png";
 import project06 from "../src/img/project06.png";
 import project07 from "../src/img/project07.png";
+import redCross from "./img/red-cross.png";
 
 export const products = [
   {
@@ -15,12 +16,18 @@ export const products = [
   },
   {
     id: 2,
+    image: redCross,
+    link: "#",
+    project: "Red Cross Society",
+  },
+  {
+    id: 3,
     image: project02,
     link: "https://tourista01.netlify.app",
     project: "Tourista",
   },
   {
-    id: 3,
+    id: 4,
     image: project03,
     link: "https://expressit01.netlify.app/",
     project: "ExpressIt",
