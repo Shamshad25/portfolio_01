@@ -17,7 +17,7 @@ export const products = [
   {
     id: 2,
     image: redCross,
-    link: "#",
+    link: "https://red-cross-society.netlify.app/",
     project: "Red Cross Society",
   },
   {
