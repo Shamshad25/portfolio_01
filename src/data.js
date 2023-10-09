@@ -50,10 +50,4 @@ export const products = [
     link: "https://contact-manage01.netlify.app/",
     project: "Contact-Manager & Covid-19-Survey",
   },
-  {
-    id: 7,
-    image: project07,
-    link: "https://shamshad.netlify.app/",
-    project: "Portfolio",
-  },
 ];
