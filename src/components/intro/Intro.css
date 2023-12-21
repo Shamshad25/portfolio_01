@@ -83,6 +83,20 @@
   right: 0;
 }
 
+.i-git {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #ea3057;
+}
+.git-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .i-name {
     font-size: 55px;

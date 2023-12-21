@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Intro.css";
 import Me from "../../img/me.png";
+import github from "../../img/git.png";
+import gitwhite from "../../img/gitwhite.png";
+import { ThemeContext } from "../../context";
 
 function Intro() {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="i">
       <div className="i-left">
@@ -21,6 +27,17 @@ function Intro() {
             I am a passionate Front-End Web Developer and Mobile Application
             Developer.
           </p>
+          <p className="i-git">
+            {darkMode ? (
+              <img src={gitwhite} alt="github" className="git-icon" />
+            ) : (
+              <img src={github} alt="github" className="git-icon" />
+            )}
+            Visit My GitHub Account to see my work:
+          </p>
+          <a href="https://github.com/Shamshad25">
+            https://github.com/ Shamshad25
+          </a>
         </div>
       </div>
       <div className="i-right">
