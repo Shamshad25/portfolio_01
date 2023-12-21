@@ -1,53 +1,73 @@
-import project01 from "../src/img/project01.png";
-import project02 from "../src/img/project02.png";
-import project03 from "../src/img/project03.png";
-import project04 from "../src/img/project04.png";
-import project05 from "../src/img/project05.png";
-import project06 from "../src/img/project06.png";
-import project07 from "../src/img/project07.png";
+import littlemonk from "../src/img/littlemonk.png";
+import shoestore from "../src/img/shoestore.png";
+import tourista from "../src/img/tourista.png";
+import expressit from "../src/img/expressit.png";
+import soultasty from "../src/img/soultasty.png";
+import hahatalk from "../src/img/hahatalk.png";
 import redCross from "./img/red-cross.png";
+import contact from "./img/contact.png";
+import ecommerce from "./img/ecommerce.png";
+import dashboard from "./img/dashboard.png";
 
 export const products = [
   {
     id: 1,
-    image: project01,
+    image: littlemonk,
+    link: "https://github.com/Shamshad25/little-monk-blog-frontend",
+    project: "Little Monk Blog",
+  },
+  {
+    id: 2,
+    image: shoestore,
     link: "https://shoestore025.netlify.app/",
     project: "ShoeStore",
   },
   {
-    id: 2,
+    id: 3,
+    image: ecommerce,
+    link: "https://e-commerce02.netlify.app",
+    project: "GroceryGO",
+  },
+  {
+    id: 4,
     image: redCross,
     link: "https://red-cross-society.netlify.app/",
     project: "Red Cross Society",
   },
   {
-    id: 3,
-    image: project02,
+    id: 5,
+    image: tourista,
     link: "https://tourista01.netlify.app",
     project: "Tourista",
   },
   {
-    id: 4,
-    image: project03,
+    id: 6,
+    image: expressit,
     link: "https://expressit01.netlify.app/",
     project: "ExpressIt",
   },
   {
-    id: 4,
-    image: project04,
+    id: 7,
+    image: soultasty,
     link: "https://soultasty.netlify.app/",
     project: "SoulTasty",
   },
   {
-    id: 5,
-    image: project05,
+    id: 8,
+    image: hahatalk,
     link: "#",
     project: "HahaTalks",
   },
   {
-    id: 6,
-    image: project06,
+    id: 9,
+    image: contact,
     link: "https://contact-manage01.netlify.app/",
     project: "Contact-Manager & Covid-19-Survey",
+  },
+  {
+    id: 10,
+    image: dashboard,
+    link: "https://dashboard25.netlify.app",
+    project: "Dashboard",
   },
 ];
